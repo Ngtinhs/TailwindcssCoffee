@@ -579,6 +579,10 @@ video {
   display: none;
 }
 
+.h-\[530px\]{
+  height: 530px;
+}
+
 .max-w-screen-2xl{
   max-width: 1536px;
 }
@@ -625,6 +629,10 @@ video {
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\/img\/slide\.jpeg\'\)\]{
+  background-image: url('./img/slide.jpeg');
+}
+
 .p-6{
   padding: 1.5rem;
 }
@@ -642,6 +650,11 @@ video {
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .text-center{
@@ -689,6 +702,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+/* ct = custom */
+
 .ct-topmenu-expanded{
   position: absolute;
   top: 2.5rem;
@@ -729,7 +744,6 @@ video {
   cursor: pointer;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  text-transform: uppercase;
 }
 
 .ct-top-menu-item:hover{
@@ -784,11 +798,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .sm\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
