@@ -577,6 +577,10 @@ video {
   right: 0.75rem;
 }
 
+.left-\[calc\(-50vw_\+_50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -682,6 +686,10 @@ video {
   height: 130px;
 }
 
+.h-\[1000px\]{
+  height: 1000px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -706,6 +714,10 @@ video {
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -783,6 +795,10 @@ video {
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .bg-orange-400{
@@ -869,8 +885,16 @@ video {
   background-image: url('./img/magazine-image-03.jpeg');
 }
 
+.bg-\[url\(\'\.\/img\/bg-parallax-01\.jpeg\'\)\]{
+  background-image: url('./img/bg-parallax-01.jpeg');
+}
+
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -1321,6 +1345,10 @@ video {
     display: flex;
   }
 
+  .md\:h-\[130px\]{
+    height: 130px;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1410,5 +1438,19 @@ video {
 
   .xl\:pl-14{
     padding-left: 3.5rem;
+  }
+}
+
+@media (min-width: 480px){
+  .xs\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .xs\:h-\[200px\]{
+    height: 200px;
+  }
+
+  .xs\:gap-5{
+    gap: 1.25rem;
   }
 }
