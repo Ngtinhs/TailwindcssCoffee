@@ -634,6 +634,14 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .flex{
   display: flex;
 }
@@ -664,6 +672,14 @@ video {
 
 .h-\[380px\]{
   height: 380px;
+}
+
+.h-\[280px\]{
+  height: 280px;
+}
+
+.h-\[130px\]{
+  height: 130px;
 }
 
 .w-full{
@@ -712,6 +728,18 @@ video {
   flex-basis: 16.666667%;
 }
 
+.basis-1\/2{
+  flex-basis: 50%;
+}
+
+.basis-2\/3{
+  flex-basis: 66.666667%;
+}
+
+.basis-1\/3{
+  flex-basis: 33.333333%;
+}
+
 .-translate-x-1\/2{
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -727,6 +755,10 @@ video {
 
 .flex-row{
   flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .items-center{
@@ -747,6 +779,10 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .bg-orange-400{
@@ -821,6 +857,18 @@ video {
   background-image: url('./img/product-coffee-09.jpeg');
 }
 
+.bg-\[url\(\'\.\/img\/magazine-image-01\.jpeg\'\)\]{
+  background-image: url('./img/magazine-image-01.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/magazine-image-02\.jpeg\'\)\]{
+  background-image: url('./img/magazine-image-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/magazine-image-03\.jpeg\'\)\]{
+  background-image: url('./img/magazine-image-03.jpeg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -876,6 +924,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pl-8{
+  padding-left: 2rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -921,6 +973,11 @@ video {
 
 .text-\[13px\]{
   font-size: 13px;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-\[12px\]{
@@ -1251,8 +1308,29 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:flex-col{
+    flex-direction: column;
   }
 
   .md\:gap-4{
@@ -1262,6 +1340,10 @@ video {
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .md\:text-left{
+    text-align: left;
   }
 }
 
@@ -1317,8 +1399,16 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:w-\[65\%\]{
+    width: 65%;
+  }
+
   .xl\:px-96{
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .xl\:pl-14{
+    padding-left: 3.5rem;
   }
 }
