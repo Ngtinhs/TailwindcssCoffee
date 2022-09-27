@@ -561,20 +561,20 @@ video {
   position: relative;
 }
 
-.top-3{
-  top: 0.75rem;
-}
-
-.right-3{
-  right: 0.75rem;
-}
-
 .bottom-4{
   bottom: 1rem;
 }
 
 .left-1\/2{
   left: 50%;
+}
+
+.top-3{
+  top: 0.75rem;
+}
+
+.right-3{
+  right: 0.75rem;
 }
 
 .mx-auto{
@@ -595,6 +595,11 @@ video {
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .ml-16{
@@ -625,6 +630,10 @@ video {
   margin-left: 0.5rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .flex{
   display: flex;
 }
@@ -649,12 +658,12 @@ video {
   height: 1px;
 }
 
-.h-\[540px\]{
-  height: 540px;
-}
-
 .h-\[400px\]{
   height: 400px;
+}
+
+.h-\[380px\]{
+  height: 380px;
 }
 
 .w-full{
@@ -671,20 +680,16 @@ video {
   width: 2rem;
 }
 
-.w-\[65\%\]{
-  width: 65%;
-}
-
-.w-\[100px\]{
-  width: 100px;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-11\/12{
   width: 91.666667%;
 }
 
-.w-\[95\%\]{
-  width: 95%;
+.w-\[100px\]{
+  width: 100px;
 }
 
 .max-w-screen-2xl{
@@ -716,10 +721,6 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -742,10 +743,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-8{
@@ -786,6 +783,42 @@ video {
 
 .bg-\[url\(\'\.\/img\/featured-mug-02\.jpg\'\)\]{
   background-image: url('./img/featured-mug-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-01\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-01.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-02\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-03\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-03.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-04\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-04.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-05\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-05.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-06\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-06.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-07\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-07.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-08\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-08.jpeg');
+}
+
+.bg-\[url\(\'\.\/img\/product-coffee-09\.jpeg\'\)\]{
+  background-image: url('./img/product-coffee-09.jpeg');
 }
 
 .bg-cover{
@@ -1218,6 +1251,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1243,6 +1284,10 @@ video {
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
